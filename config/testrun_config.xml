@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Suite Test">
+	<test name="Amazon Test" enabled="true">
+		<parameter name="sUsername" value="testuser_1"/>
+		<parameter name="sPassword" value="Test@123"/>	
+		<listner name=""/>
+		<classes>
+			<class name ="com.automation.test.TestNGWithParameters"/>
+		</classes>
+	</test>
+	
+<!-- 	 <test name="FirefoxTest">
+ 
+		<parameter name="browser" value="firefox" />
+ 		<classes>
+			<class name="com.automation.MultiBrowser" />
+		</classes>
+ 
+	</test>
+	
+	<test name="IETest">
+ 		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.automation.MultiBrowser" />
+		</classes>
+	</test> -->
+
+</suite>
